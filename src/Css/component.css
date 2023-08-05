@@ -1,0 +1,325 @@
+.kVtMtA {
+  background: #000 !important;
+  border-top: 2px solid #fff !important;
+  border-right: 2px solid #fff !important;
+  left: -8px !important;
+}
+
+.kVtMtA::before {
+  background: Black !important;
+  border-top: 2px solid #fff !important;
+  border-right: 2px solid #fff !important;
+}
+.bhRnqO {
+  background: #000 !important;
+  border-top: 2px solid #fff !important;
+  border-right: 2px solid #fff !important;
+  right: -13px !important;
+}
+.bhRnqO::before {
+  background: #000 !important;
+  border-top: 2px solid #fff !important;
+  border-right: 2px solid #fff !important;
+}
+
+.parent-container {
+  height: 100px;
+}
+
+.btn-filtercard {
+  border-radius: 29px;
+  /* filter: drop-shadow(0px 3px 5px rgba(136, 136, 136, 0.411)); */
+  border: 0px solid #a19d9d;
+  width: 85%;
+  font-family: 'Gilroy';
+  height: 55px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: Gray;
+  margin-bottom: 42px;
+  margin-left: 21px;
+}
+.btn-filtercard .active {
+  color: #bababa;
+}
+
+.btn-last {
+  border-radius: 29px;
+  filter: drop-shadow(0px 3px 5px rgba(136, 136, 136, 0.411));
+  box-shadow: 0px 3px 7px -1px;
+  border: 0px solid #a19d9d;
+  width: 48%;
+  height: 55px;
+  font-family: 'Gilroy';
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: Gray;
+  margin-left: 28%;
+  margin-top: 34px;
+  margin-bottom: 25px;
+}
+
+.btn-submit {
+  align-items: center;
+  border-radius: 29px;
+  filter: drop-shadow(0px 3px 5px rgba(136, 136, 136, 0.411));
+  box-shadow: 0px 3px 7px -1px;
+  border: 0px solid #a19d9d;
+  width: 62%;
+  height: 55px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: Gray;
+  margin-bottom: 25px;
+  margin-left: 21%;
+  background-color: black;
+  color: white;
+  margin-top: 34px;
+}
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  height: 41pc;
+}
+.mb-2 {
+  margin-bottom: 1.1rem !important;
+}
+.modal {
+  position: absolute !important;
+  padding-bottom: 50% !important;
+}
+.modal-content {
+  background-color: transparent !important;
+}
+.modal-dialog {
+  min-width: 100vw;
+}
+.modal.show .modal-dialog {
+  margin-top: 20% !important;
+  margin-bottom: auto;
+}
+/* Modal card */
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Products.js */
+.Person {
+  border: 1px solid #d2d2d4;
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+/* .row {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+} */
+
+.star-rating {
+  margin-top: -7px !important;
+}
+
+.subheading {
+  background-color: #b3bbc1;
+  width: 163%;
+  text-align: center;
+  padding: 5px;
+  margin: 10% -46%;
+}
+.card-spacing {
+  margin: 10px;
+  justify-content: center;
+}
+/* star rating  */
+.star-rating {
+  font-size: 24px;
+}
+
+.star {
+  color: #ccc;
+}
+
+.star.filled {
+  color: orange;
+}
+
+.btnmessage {
+  border: 1px solid black;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 201px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 13px;
+}
+@media (max-width: 390px) {
+  .card-img .card-img-top {
+    position: absolute;
+    transform: translate(-29% -89%);
+    max-width: 29%;
+    max-height: 292px;
+  }
+}
+/* @media (max-width: 390px) {
+  .div {
+    display: flex;
+  }
+} */
+
+.mainContainer .container {
+  margin-left: 5px !important;
+}
+/* Override max-width for Slider component */
+.slider-container {
+  width: 100%;
+  max-width: none;
+}
+
+/* Make sure the Slider component takes full width */
+.slick-slider {
+  width: 100%;
+}
+
+/* Remove padding/margin from Slider track and slides */
+.slick-list,
+.slick-track,
+.slick-slide {
+  margin: 0;
+  padding: 0;
+}
+
+/* image slider style  */
+.carousel-images {
+  position: relative;
+  border-radius: 10px;
+  height: 400px;
+  max-width: 650px;
+  margin: 0 auto; /* Center the carousel container horizontally */
+  overflow: hidden;
+  display: flex; /* Add flex display to align the image horizontally */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.carousel-images img {
+  max-width: 100%; /* Set the image width to the maximum available width */
+  max-height: 100%; /* Set the image height to the maximum available height */
+  border-radius: 8px;
+  border: #ff00008e solid 2px;
+}
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+.left,
+.right {
+  background-color: #000;
+  color: #fff;
+  padding: 1px 8px 8px 13px;
+  margin: 0 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 10px;
+  height: 43px;
+  width: 43px;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.indicator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dot {
+  background-color: #706d6d;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.active {
+  background-color: #000000;
+}
+
+.btn-success {
+  color: #b3bbc1;
+  background-color: #fff;
+  border: transparent;
+  width: 150px;
+  text-align: left;
+  border-radius: 22px;
+}
+.btn-success:hover {
+  color: #b3bbc1;
+  background-color: #fff;
+}
+.btn-success:active {
+  color: #b3bbc1;
+  background-color: #fff;
+}
+.dropdown-toggle:hover {
+  color: #000;
+  background-color: #fff;
+}
+.dropdown-toggle:active {
+  color: #000;
+  background-color: #fff;
+}
+.btn-group > .btn-group:not(:first-child) > .btn,
+.btn-group > .btn:not(:first-child) {
+  color: #000;
+  align-items: right;
+}
+.dropdown-toggle:empty::after {
+  margin-left: 100px;
+}
+/* Custom styles for the QTY buttons */
+/* Override styles for .btn-outline-primary */
+.btn.btn-outline-primary {
+  background-color: #fff !important;
+  border-color: #fff !important;
+  color: #000 !important;
+  border-radius: 22px;
+}
+
+/* Override styles for .btn-outline-primary on hover and active */
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus,
+.btn.btn-outline-primary:active {
+  background-color: #fff !important; /* Set background color to #fff on hover and active */
+  border-color: #fff !important; /* Set border color to #fff on hover and active */
+  color: #000 !important; /* Set text color to #000 on hover and active */
+}
+
+/* Override styles for .btn-outline-primary on active state */
+.btn.btn-outline-primary:active {
+  box-shadow: none !important ;
+  border-color: #fff !important;
+}
+
+.css-q8hpuo-MuiFormControl-root {
+  width: '80% !important';
+}
+
+@media (max-width: 600px) {
+  .bot {
+    flex-direction: block;
+    text-align: center;
+  }
+  .span {
+    flex-direction: block;
+    text-align: center;
+  }
+  .search-container {
+    display: none;
+  }
+}
